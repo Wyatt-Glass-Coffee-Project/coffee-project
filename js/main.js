@@ -2,7 +2,7 @@
 
     "use strict"
 
-    let coffees = [
+    const coffees = [
         {id: 1, name: 'Light City', roast: 'light'},
         {id: 2, name: 'Half City', roast: 'light'},
         {id: 3, name: 'Cinnamon', roast: 'light'},
@@ -33,6 +33,7 @@
         html += '</div>';
         return html;
     }
+
 // if statement to display original coffees at page load
     if (coffees.length < 15) {
         updateCoffees();
