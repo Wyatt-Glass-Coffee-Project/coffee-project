@@ -25,7 +25,7 @@
     let roastSelection = document.querySelector('#roast-selection');
     let roastSearch = document.querySelector('#roast-search');
 
-
+// function to print out only the Coffee Name and Roast - coffee id
     function renderCoffee(coffee) {
         let html = '<div class="coffee">';
         html += '<h1>' + coffee.name + '</h1>';
