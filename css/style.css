@@ -25,13 +25,14 @@ div.coffee-column {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: lightgray;
+    background-color: white;
     border: 1px solid grey;
     border-radius: 30px;
     width: 50%;
     min-width: 500px;
     height: 550px;
     overflow: scroll;
+
 }
 
 div.coffee {
@@ -44,13 +45,13 @@ div.coffee {
 }
 
 div.coffee h1 {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 
 div.coffee p {
     padding-top: 6px;
-    font-size: 15px;
+    font-size: 12px;
     opacity: 1;
     color: black;
 }
@@ -69,7 +70,7 @@ div.coffee p {
     border-radius: 10px;
     box-shadow: black;
     margin-bottom: 20px;
-    background-color: lightgray;
+    background-color: white;
     width: 90%;
 }
 
@@ -78,14 +79,14 @@ div.coffee p {
     border-radius: 4px;
     margin-bottom: 10px;
     width: 100%;
-    background-color: lightblue;
+    background-color: slategrey;
 }
 
 #roast-search {
     border: 1px solid black;
     border-radius: 4px;
     width: 100%;
-    background-color: lightblue;
+    background-color: slategrey;
 }
 
 .coffee-add {
@@ -97,7 +98,7 @@ div.coffee p {
     padding: 10px;
     border-radius: 10px;
     box-shadow: black;
-    background-color: lightgray;
+    background-color: white;
     width: 90%;
 }
 
@@ -106,7 +107,7 @@ div.coffee p {
     border-radius: 4px;
     width: 100%;
     margin-bottom: 10px;
-    background-color: lightblue;
+    background-color: slategrey;
 }
 
 #name-add {
@@ -114,16 +115,17 @@ div.coffee p {
     border-radius: 4px;
     width: 100%;
     margin-bottom: 10px;
-    background-color: lightblue;
+    background-color: slategray;
 }
 
 #submit1, #submit2 {
     width: 60%;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: slategrey;
     box-shadow: lightblue;
     transition: all ease .2s;
+    margin: .5em;
 }
 
 
